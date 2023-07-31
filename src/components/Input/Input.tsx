@@ -29,7 +29,7 @@ const StyledLabel = styled.div<InputProps>`
 
 const StyledMessage = styled.div<InputProps>`
   font-size: 14px;
-  color: "#a9150b8";
+  color: #a9150b8;
   padding-top: 4px;
 `;
 
@@ -65,8 +65,7 @@ const Input: FC<InputProps> = ({
         error={error}
         success={success}
         placeholder={placeholder}
-        {...props}
-      ></StyledInput>
+        {...props}></StyledInput>
       <StyledMessage>
         <StyledText error={error}>{message}</StyledText>
       </StyledMessage>
