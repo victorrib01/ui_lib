@@ -1,0 +1,3 @@
+dist/
+**/*.stories.tsx
+**/*.test.tsx

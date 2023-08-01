@@ -1,0 +1,40 @@
+# Ignore artifacts:
+dist
+build
+node_modules
+coverage
+.storybook
+
+# Ignore artifacts:
+build
+coverage
+
+# Ignore all HTML files:
+*.html
+
+# Ignore all JSON files:
+*.json
+
+# Ignore Storybook static files
+.storybook
+
+# Ignore Node modules:
+/node_modules
+
+# Ignore package-lock.json files:
+package-lock.json
+
+# Ignore Log files
+*.log
+
+# Ignore the next.js build output directory
+.next
+
+# Ignore TypeScript definition files
+*.d.ts
+
+# Ignore public directory
+/public
+
+# Ignore CSS files
+*.css

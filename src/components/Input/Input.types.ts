@@ -1,6 +1,6 @@
-import { ChangeEventHandler } from "react";
+import { type ChangeEventHandler, type InputHTMLAttributes } from 'react';
 
-export interface InputProps {
+export interface InputProps extends InputHTMLAttributes<HTMLInputElement> {
   id?: string;
   label?: string;
   error?: boolean;

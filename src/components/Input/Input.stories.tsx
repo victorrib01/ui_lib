@@ -1,10 +1,10 @@
-import React from "react";
-import { Meta, StoryObj } from "@storybook/react";
-import Input from "./Input";
+import React from 'react';
+import { Meta, StoryObj } from '@storybook/react';
+import Input from './Input';
 
 const meta: Meta<typeof Input> = {
   component: Input,
-  title: "Marbella/InputField",
+  title: 'Zame/InputField',
   argTypes: {},
 };
 export default meta;
@@ -17,7 +17,7 @@ export const Primary: Story = (args) => (
 Primary.args = {
   error: false,
   disabled: false,
-  label: "Primary",
+  label: 'Primary',
 };
 
 export const Success: Story = (args) => (
@@ -27,7 +27,7 @@ Success.args = {
   error: false,
   success: true,
   disabled: false,
-  label: "Success",
+  label: 'Success',
 };
 
 export const Error: Story = (args) => (
@@ -36,7 +36,7 @@ export const Error: Story = (args) => (
 Error.args = {
   error: true,
   disabled: false,
-  message: "Error",
+  message: 'Error',
 };
 
 export const Disabled: Story = (args) => (
@@ -44,5 +44,5 @@ export const Disabled: Story = (args) => (
 );
 Disabled.args = {
   disabled: true,
-  label: "Disabled",
+  label: 'Disabled',
 };

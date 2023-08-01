@@ -1,10 +1,10 @@
-import React from "react";
-import { Meta, StoryObj } from "@storybook/react";
-import Button from "./Button";
+import React from 'react';
+import { Meta, StoryObj } from '@storybook/react';
+import Button from './Button';
 
 const meta: Meta<typeof Button> = {
   component: Button,
-  title: "Marbella/Button",
+  title: 'Zame/Button',
   argTypes: {},
 };
 export default meta;
@@ -17,7 +17,7 @@ export const Primary: Story = (args) => (
 Primary.args = {
   primary: true,
   disabled: false,
-  text: "Primary",
+  text: 'Primary',
 };
 
 export const Secondary: Story = (args) => (
@@ -26,7 +26,7 @@ export const Secondary: Story = (args) => (
 Secondary.args = {
   primary: false,
   disabled: false,
-  text: "Secondary",
+  text: 'Secondary',
 };
 
 export const Disabled: Story = (args) => (
@@ -35,7 +35,7 @@ export const Disabled: Story = (args) => (
 Disabled.args = {
   primary: false,
   disabled: true,
-  text: "Disabled",
+  text: 'Disabled',
 };
 
 export const Small: Story = (args) => (
@@ -44,8 +44,8 @@ export const Small: Story = (args) => (
 Small.args = {
   primary: true,
   disabled: false,
-  size: "small",
-  text: "Small",
+  size: 'small',
+  text: 'Small',
 };
 
 export const Medium: Story = (args) => (
@@ -54,8 +54,8 @@ export const Medium: Story = (args) => (
 Medium.args = {
   primary: true,
   disabled: false,
-  size: "medium",
-  text: "Medium",
+  size: 'medium',
+  text: 'Medium',
 };
 
 export const Large: Story = (args) => (
@@ -64,6 +64,6 @@ export const Large: Story = (args) => (
 Large.args = {
   primary: true,
   disabled: false,
-  size: "large",
-  text: "Large",
+  size: 'large',
+  text: 'Large',
 };
